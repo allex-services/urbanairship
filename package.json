@@ -1,0 +1,21 @@
+{
+  "name": "allex_urbanairshipservice",
+  "version": "1.0.0",
+  "description": "UrbanAirshipService",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "git@github.com:allex-services/urbanairship.git"
+  },
+  "keywords": [
+    "ecosystem:allex",
+    "Service",
+    "UrbanAirship"
+  ],
+  "author": "HERS Belgrade",
+  "license": "ISC"
+}
+
