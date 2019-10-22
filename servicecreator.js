@@ -15,10 +15,9 @@ function createUrbanAirshipService(execlib, ParentService, urbanairshiptalkerlib
   function UrbanAirshipService(prophash) {
     ParentService.call(this, prophash);
     this.UATalker1 = new urbanairshiptalkerlib.UATalker({
-      AppKey: 'IPnO0K9xT0GGLl0pKodAcA',
-      AppSecret: 'I3nBrJ2aRxWmOjuXppVUuQ',
-      AppMasterSecret: 'K2bHDzB8SP6FHxa9CgV_5A',
-      channel_id : channel_id
+      AppKey: prophash.AppKey,
+      AppSecret: prophash.AppSecret,
+      AppMasterSecret: prophash.AppMasterSecret
     });
   }
   
